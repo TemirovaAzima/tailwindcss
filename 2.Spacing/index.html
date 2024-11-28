@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Container & Spacing</title>
+  <style>
+    body {
+      padding: 5rem;
+    }
+  </style>
+</head>
+<body>
+<!-- Margin -->
+<!-- https://tailwindcss.com/docs/margin -->
+<h3>1. Margin</h3>
+<div class="m-1 bg-blue-100">
+  Har tarafdan Margin
+</div>
+<div class="mx-2 bg-blue-200">
+  X o'qi boyicha Margin
+</div>
+<div class="my-3 bg-blue-300">
+  Y o'qi boyicha Margin
+</div>
+<div class="mt-4 bg-blue-400">
+  Tepadan Margin
+</div>
+<div class="mb-5 bg-blue-500">
+  Pastdan Margin
+</div>
+<div class="ml-6 bg-blue-600">
+  Chapdan Margin
+</div>
+<div class="mr-7 bg-blue-700">
+  O'ngdan Margin
+</div>
+
+<!-- Arbitrary Spacing -->
+<div class="m-[40px] bg-yellow-500 text-white">
+  Arbitrary Spacing
+</div>
+
+<!-- Padding -->
+<!-- https://tailwindcss.com/docs/padding -->
+
+<h3>3.Padding</h3>
+<div class="p-2 bg-blue-100">everywhere</div>
+<div class="px-4 bg-blue-200">
+  X bo'yicha
+</div>
+<div class="py-6 bg-blue-300">
+  Y boyicha
+</div>
+<div class="pt-8 bg-blue-400">
+  top
+</div>
+<div class="pb-10 bg-blue-500">
+  bottom
+</div>
+<div class="pl-10 bg-blue-500">
+  left
+</div>
+<div class="pr-10 bg-blue-500">
+  right
+</div>
+<!-- https://tailwindcss.com/docs/space -->
+<!-- Space Between X -->
+<!-- Space Between Y -->
+<div class="pb-[30px] bg-indigo-300">Arbitrary chinese ching chong</div>
+<h3>4.Space between</h3>
+<div class=" flex space-x-12">
+  <div class="bg-blue-100 p-6">1</div>
+  <div class="bg-blue-200 p-6">2</div>
+  <div class="bg-blue-300 p-6">3</div>
+</div>
+<h3>5.Space between Y</h3>
+<div class="flex flex-col space-y-12">
+  <div class="bg-blue-100">1</div>
+  <div class="bg-blue-200">2</div>
+  <div class="bg-blue-300">3</div>
+</div>
+</body>
+</html>
