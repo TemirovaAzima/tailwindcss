@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Title</title>
+</head>
+<body class="p-20">
+<!-- https://tailwindcss.com/docs/position -->
+<h1 class="mb-3">Position</h1>
+<div class="sticky top-0  bg-green-300 w-16 h-20 ">
+  <p>Heheloremuuuu</p>
+</div>
+<div class="relative w-1/2 h-40 bg-green-200">
+  <p>Relative</p>
+  <div class=" absolute bottom-0 right-10 bg-teal-500 p-4">
+    <p>Absolute</p>
+  </div>
+</div>
+<div class="relative w-1/2 h-40 bg-green-200 mt-5 mb-5">
+  <p>Relative</p>
+  <div class="absolute left-0 top-0 h-16 w-16 bg-teal-500 ">
+    <p>Absolute</p>
+  </div>
+</div>
+<div class="relative w-1/2 h-40 bg-green-200 mt-5 mb-5">
+  <p>Relative</p>
+  <div class="absolute right-0 top-0 h-16 w-16 bg-teal-500">
+    <p>Absolute</p>
+  </div>
+</div>
+<div class="relative w-1/2 h-40 bg-green-200 mt-5 mb-5">
+  <p>Relative</p>
+  <div class="absolute bottom-0 h-16 w-16 bg-teal-500">
+    <p>Absolute</p>
+  </div>
+</div>
+<div class="sticky top-0 left-0  bg-green-300 w-16 h-20 ">
+  <p>Hehe</p>
+</div>
+<!--<div class="fixed bg-violet-300 top-0 right-0 w-1/2 h-40 ">-->
+<!--  <p>hsfbbdjanfjwbhbal</p>-->
+<!--</div>-->
+<h1 class="mb-3">Display</h1>
+<div class="bg-indigo-100 p-10 mb-10 w-[600px]">
+  <span class="inline">1. Bu inline displey va an'anaviy tarzda o'raladi</span>
+  ((bu ma'nosiz matn ichki matn sifatida qo'shiladi))
+  <span class="inline-block">2.Bu displeyning inline-blokidir va uning parentdaiqmaydi</span>gj
+  ((bu ma'nosiz matn ichki matn sifatida qo'shiladi))
+  <span class="block"> Bu displey bloki va o'z qatorida turadi</span>
+  <span class="hidden">4. Bu displayda ko'rsatilmaydi va umuman ko'rsatilmaydi</span>
+</div>
+<hr>
+<!--<div class="inline-block bg-purple-500 p-4 sm:w-32 md:w-96 lg:w-96">-->
+<!--  This element's width changes based on the screen size, but it stays inline.-->
+<!--</div>-->
+<div class="inline-block bg-blue-500 p-4 m-2 w-32">
+  This is an inline-block element.
+</div>
+<div class="inline-block bg-red-500 p-4 m-2 w-32">
+  This is another inline-block element.
+</div>
+<div class=" inline bg-red-200 p-5 m-2 w-4 ">
+  <p class="w-4">helo bithes</p>
+</div>
+<div class="inline w-8 p-5 m-2 bg-blue-300">hello how are u</div>
+
+<!--&lt;!&ndash; https://tailwindcss.com/docs/display &ndash;&gt;-->
+<!--<h1 class="mb-3">Display</h1>-->
+<!--<div class="bg-"></div>-->
+<!--<div class="h-screen bg-gray-200">-->
+<!--  <div class="sticky top-0 bg-blue-500 p-4">-->
+<!--    This header will scroll until it sticks to the top of the screen.-->
+<!--  </div>-->
+<!--  <div class="h-[2000px] p-4">-->
+<!--    Scrollable content...-->
+<!--  </div>-->
+<!--  <div class="fixed bottom-0 right-0 bg-red-500 p-4">-->
+<!--    This will always stay fixed in the bottom-right corner.-->
+<!--  </div>-->
+<!--</div>-->
+<pre>
+This is some preformatted text.
+  It keeps spaces and line breaks.
+    - It can also preserve indentation.
+
+For example, code would be displayed with its indentation:
+  function greet() {
+    console.log("Hello, World!");
+  }
+</pre>
+</body>
+</html>
